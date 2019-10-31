@@ -11,6 +11,6 @@ Creation of the letter transition probabilities matrix, that gives the next pote
 Create word using the matrix and random weighted choices 
 
 ## Parameters
-model = table of transition probabilities
-n = number of words wanted to be generated
+model = table of transition probabilities\
+n = number of words wanted to be generated\
 l = lenght of the words to generate
