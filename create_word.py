@@ -72,7 +72,7 @@ def create(l):
     word = ""
 
     while len(word) < l:
-        if len(word) == l-2:
+        if len(word) == l-2 and l > 2:
             new_letter = get_end_letter(word[-2:])
         else:
             if len(word) == 0:
