@@ -1,16 +1,27 @@
 # Word Builder
-A Python program that can create new words on any European language
+Program that can create new words in any european language of the desired length.
 
 ## Method
-Algorithm based on Markov Chains transition probabilities
+Algorithm based on Markov Chains Transition Probabilities
 
-## First step
-Creation of the letter transition probabilities matrix, that gives the potential next letter with weights for the given bigram.
-
-## Second step
-Create words using the matrix and random weighted choices 
+## Procedure
+1. Creation of the transition matrix
+2. Add letter to word randomly using the matrix and random weighted choices 
 
 ## Parameters
-model = matrix of transition probabilities\
-n = number of words wanted to be generated\
-l = lenght of the words to generate
+model: matrix of transition probabilities\
+n: number of words wanted to be generated\
+l: lenght of the words to generate
+
+## Run
+```
+python analyse.py
+```
+Next
+```
+python create_word.py
+```
+
+## Requirements
+- Python 3.X.X
+- Pandas
